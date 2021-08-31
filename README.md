@@ -12,7 +12,7 @@ The API returns the prices for the searched items from e-commerce websites in JS
 
 ```
     {
-        id: 1630436269,
+        ts: 1630436269,
         website: 'AMZ',
         searchedString: 'Philips Hue Bulb',
         results: [
