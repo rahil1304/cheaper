@@ -2,6 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/400871267.svg)](https://zenodo.org/badge/latestdoi/400871267)
 
+![unit test passing](https://github.com/rahil1304/cheaper/actions/workflows/python-app.yml/badge.svg)
+
+
 An upcoming chrome extension and API that scrapes the most popular e-commerce websites to get the best deals on the searched query across these websites.
 
 ### What does cheaper do?
