@@ -1,15 +1,18 @@
 ## :money_with_wings: cheaper
+
+[![DOI](https://zenodo.org/badge/400871267.svg)](https://zenodo.org/badge/latestdoi/400871267)
+
 An upcoming chrome extension and API that scrapes the most popular e-commerce websites to get the best deals on the searched query across these websites.
 
-#### What does cheaper do?
+### What does cheaper do?
 Pass any search string to the cheaper API. It can be called by the following command
 <pre><code>cheaper 'Philips Hue Bulb'</code></pre>
 
-The API returns the prices for the searched items from e-commerce websites in a JSON object
+The API returns the prices for the searched items from e-commerce websites in JSON format
 
 ```
     {
-        id: 1630436269,
+        ts: 1630436269,
         website: 'AMZ',
         searchedString: 'Philips Hue Bulb',
         results: [
@@ -23,3 +26,10 @@ The API returns the prices for the searched items from e-commerce websites in a 
         ...
     }
 ```
+
+### JSON Configuration
+
+| Key     | Type         | Description                        |
+|---------|--------------|------------------------------------|
+| ts      | ```int```    | Unix timestamp in seconds          |
+| website | ```string``` | Name of e-commerce website scraped |
