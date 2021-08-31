@@ -3,13 +3,11 @@ An upcoming chrome extension and API that scrapes the most popular e-commerce we
 
 #### What does cheaper do?
 Pass any search string to the cheaper API. It can be called by the following command
-<pre><code>
-    cheaper 'Philips Hue Bulb'
-</code></pre>
+<pre><code>cheaper 'Philips Hue Bulb'</code></pre>
 
 The API returns the prices for the searched items from e-commerce websites in a JSON object
 
-<pre><code>
+```
     {
         id: 1630436269,
         website: 'AMZ',
@@ -24,4 +22,4 @@ The API returns the prices for the searched items from e-commerce websites in a 
         ],
         ...
     }
-</code></pre>
+```
