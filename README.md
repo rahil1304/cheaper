@@ -14,7 +14,7 @@ The API returns the prices for the searched items from e-commerce websites in JS
 ```
     {
         ts: 1630436269,
-        website: 'AMZ',
+        website: 'amazon',
         searchedString: 'Philips Hue Bulb',
         results: [
             {
@@ -29,8 +29,11 @@ The API returns the prices for the searched items from e-commerce websites in JS
 ```
 
 ### JSON Configuration
+Configuration information of the returned JSON
 
 | Key     | Type         | Description                        |
 |---------|--------------|------------------------------------|
 | ts      | ```int```    | Unix timestamp in seconds          |
 | website | ```string``` | Name of e-commerce website scraped |
+| searchedString | ```string``` | String used to search product |
+| results | ```list``` | List of results  |
