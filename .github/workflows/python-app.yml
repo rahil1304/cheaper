@@ -1,18 +1,4 @@
-'''
-on: push
-name: Insertion Testing
-jobs:
-  gitHubActionForPytest:
-    name: GitHub Action for pytest
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@main
-    - name: GitHub Action for pytest
-    run: python setup.py
-    pytest'''
-
-
-    name: Insertion sort Tests
+name: Insertion sort Tests
 on:
   push:
     branches:
