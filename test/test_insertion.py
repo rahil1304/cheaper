@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(1, 'E:/SE/project/cheaper/code')
+sys.path.append("./code")
 import insertion
 
 
