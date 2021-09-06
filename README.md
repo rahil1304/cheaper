@@ -1,6 +1,6 @@
 ## :money_with_wings: cheaper
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![unit test passing](https://github.com/rahil1304/cheaper/actions/workflows/python-app.yml/badge.svg) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![DOI](https://zenodo.org/badge/400871267.svg)](https://zenodo.org/badge/latestdoi/400871267)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Run Python Tests](https://github.com/rahil1304/cheaper/actions/workflows/python-app.yml/badge.svg)](https://github.com/rahil1304/cheaper/actions/workflows/python-app.yml) [![DOI](https://zenodo.org/badge/400871267.svg)](https://zenodo.org/badge/latestdoi/400871267)
 
 
 An upcoming chrome extension and API that scrapes the most popular e-commerce websites to get the best deals on the searched query across these websites.
