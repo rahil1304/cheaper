@@ -10,5 +10,5 @@ jobs:
       '''uses: cclauss/GitHub-Action-for-pytest@main
       with:
         args: python setup.py develop && pytest'''
-    - uses: python setup.py
+    uses: python setup.py
     pytest
