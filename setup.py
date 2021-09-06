@@ -120,7 +120,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='awesomecode',
+    name='cheaper',
     version='6.2.3',
     install_requires=[
         'pytest'
