@@ -1,3 +1,6 @@
+import code
+
+
 def insertionSort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
@@ -7,3 +10,4 @@ def insertionSort(arr):
                 j -= 1
         arr[j+1] = key
     return arr
+
