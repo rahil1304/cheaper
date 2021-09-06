@@ -1,11 +1,24 @@
-on: push
-name: Insertion Testing
+name: Run Python Tests
+on:
+  push:
+    branches:
+      - rahil-6-sept-test-badge
+  pull_request:
+    branches:
+      - rahil-6-sept-test-badge
+
 jobs:
-  gitHubActionForPytest:
-    name: GitHub Action for pytest
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
-    - name: GitHub Action for pytest
-    run: python setup.py
-    pytest
+      - uses: actions/checkout@v2
+      - name: Install Python 3
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.6
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run tests with pytest
+        run: pytest 
