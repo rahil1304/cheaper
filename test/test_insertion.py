@@ -1,6 +1,5 @@
-import code.insertion
-
-arr = code.insertion([4,5,3,1,2])
+from code import insertion
+arr = insertion([4,5,3,1,2])
 
 #checking the length of the returned array
 assert(len(arr) == 5)
