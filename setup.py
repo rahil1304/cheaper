@@ -1,4 +1,4 @@
-import io
+'''import io
 import os
 import sys
 from shutil import rmtree
@@ -113,4 +113,17 @@ setup(
     cmdclass={
         'upload': UploadCommand,
     },
+)'''
+
+
+from setuptools import setup, find_packages
+
+
+setup(
+    name='cheaper',
+    version='6.2.3',
+    install_requires=[
+        'pytest'
+    ],
+    packages=find_packages()
 )
