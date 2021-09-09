@@ -1,4 +1,4 @@
-from json import encoder
+import json
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import json
@@ -7,7 +7,7 @@ data = {}
 
 driver = webdriver.PhantomJS(executable_path="phantomjs")
 # item = input("Enter Item: ")
-item = 'table'
+item = input("Enter Item: ")
 data[item] = []
 URL = 'https://www.amazon.com/s?k=' + item + '&ref=nb_sb_noss_2'
 driver.get(URL)
