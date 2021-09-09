@@ -23,7 +23,17 @@ This section guides you through submitting an enhancement suggestion for Cheaper
 
 instead of opening a new one.
 
+#### Git Branching Naming Convention
+Not using appropriate naming conventions leads to confusion and complicates the code maintenance team. We can’t ignore Git best practices in branching naming conventions.
 
+- Main (main) is the default branch available in the Git repository. It should be stable all the time and won’t allow any direct check-in. You can only merge it after code review. All team members are responsible for keeping the master stable and up-to-date.
+
+- <b>Make sure the new branch you create follows proper naming conventions.</b>
+```<author>-<date in (DD-MMMM) format>-<short-feature-description>```
+<br> E.g., rahil-6-sept-test-badge
+E.g., moksh-7-sept-web-scraping
+
+This method allows for easy tracking of different developers’ work and progress with additional systems.
 ### What should I know before I get started?
 
 1. Check the README.md
